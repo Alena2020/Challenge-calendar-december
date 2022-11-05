@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1513297887119-d46091b24bfa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  font-family: "Bubblegum Sans", cursive, sans-serif;
+  color: #0dcaf0;
+  letter-spacing: 2px;
+  text-shadow: 0 0 2px white, -1px -1px 0 white, -3px -3px 1px white,
+      -2px -2px 2px magenta;  
+}
+
+.container{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, inset 5px 5px 15px aqua;
+}
+
+.card {
+  height: 100px;
+  width: 100px;
+  background: chartreuse;
+  border: 1px solid whitesmoke;
+  box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, inset 5px 5px 15px aqua;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
