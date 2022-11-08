@@ -17,7 +17,7 @@ h1 {
 }
 
 .container{
-  margin: 20px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,8 +31,8 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 50px 0;
-  margin: 5px;
+  padding: 50px 20px;
+  margin: 15px;
   box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, inset 5px 5px 15px aqua;
   position: relative;
 }
@@ -47,7 +47,7 @@ h1 {
   margin: 5px;
   text-align: center;
   transform-style: preserve-3d;
-  transition: transform 3s;
+  transition: transform 1s;
   cursor: pointer;
   position: relative;
   z-index: 2;
@@ -84,4 +84,20 @@ h1 {
   color: indigo;
   font-size: 12px;
   padding: 15px 10px;
+}
+
+@media (max-width: 650px) {
+  .card {
+    height: 100px;
+    width: 100px;
+  }
+
+  .front, .back {
+    height: 95px;
+    width: 95px;
+  }
+
+  .back {
+    font-size: 10px;
+  }
 }
